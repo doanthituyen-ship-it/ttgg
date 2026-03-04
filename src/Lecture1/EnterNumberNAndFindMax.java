@@ -10,7 +10,7 @@ public class EnterNumberNAndFindMax {
         int n, max = 0, index = 0;
         System.out.println("Enter number of elements: ");
         n = sc.nextInt();
-        a = new int[n];
+        k = new int[n];
       /*
         //Cach 1
         for(int i=0;i<n;i++){
@@ -19,7 +19,7 @@ public class EnterNumberNAndFindMax {
         }
         for (int i = 0; i < n; i++) {
             max = a[0];
-            index = 0;
+            in = 0;
             if (max < a[i]) {
                 max = a[i];
                 index = i;
@@ -43,3 +43,4 @@ public class EnterNumberNAndFindMax {
     }
 
 }
+
