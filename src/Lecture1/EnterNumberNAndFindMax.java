@@ -8,7 +8,7 @@ public class EnterNumberNAndFindMax {
         Scanner sc = new Scanner(System.in);
         int[] a;
         int n, max = 0, index = 0;
-        System.out.println("Enter number of elements: ");
+        System.out.println("Enter number : ");
         n = sc.nextInt();
         a = new int[n];
       /*
@@ -25,7 +25,7 @@ public class EnterNumberNAndFindMax {
                 index = i;
             }
         }
-        System.out.println("Max value: " + max);
+        System.out.println("Max: " + max);
         System.out.println("At position: " + index);
 */
       //Cach hai
@@ -43,4 +43,5 @@ public class EnterNumberNAndFindMax {
     }
 
 }
+
 
