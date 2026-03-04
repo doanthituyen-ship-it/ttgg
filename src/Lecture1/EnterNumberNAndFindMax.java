@@ -33,13 +33,14 @@ public class EnterNumberNAndFindMax {
             System.out.print("Elements of array: ");
             int x=sc.nextInt();
             if(i==0){
-                max=x;
+                max=k;
             }else{
-                if(x>max)
-                    max=x;
+                if(k>max)
+                    max=k;
             }
         }
-        System.out.println("Max value: "+max);
+        System.out.println("Max : "+max);
     }
 
 }
+
